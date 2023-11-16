@@ -1,16 +1,20 @@
-#texto.texto-centrado{
-    border-radius: 20%;
-    padding: 20;
-    width: 20%;
-}
+.contenedor {
+    text-align: center;
+  }
 
-#boton{
-    border-radius: 20%;
-    width: 40%;
-    margin: 20% 30% 10% 40%;
-    border-style: none;
-    background-color: darkolivegreen;
-}
+  .contenedor {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 300px; /* Altura de ejemplo para el contenedor */
+  }
+  
+
+#boton {
+    position: absolute;
+    top: 230px;
+    left: 400px;
+  }
 #imagen-boton{
     display: block;
     border-radius: 100%;
