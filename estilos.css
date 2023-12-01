@@ -22,5 +22,6 @@
     width: 40%;
     border-style: none;
 }
-     
-
+body {
+  background-color: rgb(167, 168, 170);
+}
